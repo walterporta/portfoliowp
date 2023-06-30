@@ -4,6 +4,7 @@ import Landing from "../components/Landing";
 import About from "../components/About";
 import ProjectsSections from "../components/ProjectsSections";
 
+
 const Home = () => {
 
     return (

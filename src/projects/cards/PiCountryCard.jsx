@@ -13,8 +13,8 @@ const PiCountryCard = () => {
             <div className="text-left ml-8">
               <h1 className="text-lg font-bold">PI Country</h1>
               <br />
-              <p>Proyecto individual realizado durante el curso</p>
-              <p>Full Stack Developer en Henry</p>
+              <p>Proyecto individual</p>
+              <p>Curso: Full Stack Developer en Henry</p>
               <br />
               <div className="flex flex-row">
                 <p className="font-bold mr-2">Fecha de realización:</p>
