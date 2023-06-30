@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/Navbar";
 import Landing from "../components/Landing";
 import About from "../components/About";
+import ProjectsSections from "../components/ProjectsSections";
 
 const Home = () => {
 
@@ -10,6 +11,7 @@ const Home = () => {
             <NavBar />
             <Landing />
             <About />
+            <ProjectsSections />
         </div>
     );
 };

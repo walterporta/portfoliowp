@@ -30,7 +30,7 @@ const Landing = () => {
           href="https://github.com/walterporta"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 hover:text-cyan-500 text-white px-4 py-2 rounded-lg  border-cyan-500 "
+          className="bg-gray-800 hover:text-cyan-500 text-white px-4 py-2 rounded-lg border-cyan-500 b"
         >
           GitHub
         </a>
