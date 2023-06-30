@@ -1,12 +1,12 @@
 const About = () => {
 return (
-    <div className=" flex flex-col items-center justify-center h-screen">
+    <div className=" flex flex-col items-center justify-center h-screen text-center">
 
     
         <div className=" text-left">
             
-            <h1 className="text-lg font-bold">SOBRE MÍ</h1>        
-          
+            <h1 className="text-lg font-bold">SOBRE MÍ:</h1>        
+            <br />
             <p>¡Hola! Mi nombre es Walter Porta y soy un Desarrollador Web Full Stack</p>
             <p>graduado del Bootcamp de Henry con más de nueve años de</p>
             <p>experiencia en el mundo de la tecnología. Como profesional, me destaco</p>
@@ -27,6 +27,7 @@ return (
             <p>comprometido con el éxito de tu empresa, no dudes en contactarme.</p>
             <p>Estoy deseando contribuir al éxito de tu proyecto.</p>        
         </div>
+        <br />
         <div className="mt-6 space-x-4">
             <a 
             href="https://drive.google.com/file/d/17pGeiRA535DKCVIcvlv7xxVXKihNo_jq/view?usp=share_link"

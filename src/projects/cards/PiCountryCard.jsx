@@ -1,6 +1,6 @@
 const PiCountryCard = () => {
     return (
-      <div className="flex items-center justify-center h-screen">
+      <div className="flex items-center justify-center">
         <div className="border border-transparent hover:border-gray-800 hover:bg-white hover:text-black hover:bg-opacity-50 hover:text-opacity-50 rounded-md">
           <div className="flex m-4">
             <div className="w-78 h-64 overflow-hidden flex-shrink-0">
