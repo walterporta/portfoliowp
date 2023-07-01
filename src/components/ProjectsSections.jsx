@@ -1,3 +1,27 @@
+// import React from "react";
+// import PiCountryCard from "../projects/cards/PiCountryCard";
+// import CoderGameCard from "../projects/cards/CoderGameCard";
+
+// const ProjectsSections = () => {
+//   return (
+//     <div className="bg-emerald-500 items-center justify-center h-screen">
+//       <h1 className="text-lg font-bold ">PROYECTOS:</h1>
+//       <br />
+//       <div className="flex flex-col md:flex-row items-center  justify-center ">
+//         <div className="grid grid-cols-2 md:items-start ">
+//           <PiCountryCard />
+//           <CoderGameCard />
+          
+//         </div>
+        
+        
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ProjectsSections;
+
 import React from "react";
 import PiCountryCard from "../projects/cards/PiCountryCard";
 import CoderGameCard from "../projects/cards/CoderGameCard";
@@ -5,17 +29,15 @@ import CoderGameCard from "../projects/cards/CoderGameCard";
 const ProjectsSections = () => {
   return (
     <div className="bg-emerald-500 items-center justify-center h-screen">
-      <h1 className="text-lg font-bold ">PROYECTOS:</h1>
+      <h1 className="text-lg font-bold">PROYECTOS:</h1>
       <br />
-      <div className="flex flex-wrap justify-center ">
-        <div className="grid grid-cols-2">
+      <div className="flex flex-col md:flex-row items-center justify-center">
+        <div className="md:flex-col ">
           <PiCountryCard />
-          <PiCountryCard />
-          <CoderGameCard />
+        </div>
+        <div className="md:flex-col">
           <CoderGameCard />
         </div>
-        
-        
       </div>
     </div>
   );

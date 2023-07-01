@@ -5,7 +5,7 @@ const CoderGameCard = () => {
           <div className="flex m-4">
             <div className="w-78 h-64 overflow-hidden flex-shrink-0">
               <img
-                src="/src/assets/img/CoderGame-HomeCard.png"
+                src="/src/assets/img/otro.png"
                 alt="Imagen de portada"
                 className="w-full h-full object-cover"
               />
