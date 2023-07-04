@@ -8,7 +8,7 @@ import ProjectsSections from "../components/ProjectsSections";
 const Home = () => {
 
     return (
-        <div className="w-full h-screen bg-emerald-500 p-0">
+        <div className="w-full h-screen  p-0">
             <NavBar />
             <Landing />
             <About />

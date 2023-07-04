@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <div className="w-full md:w-2/3 md:mx-4 mt-4">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-900">
+      <div className="w-full md:w-2/3 md:mx-4 mt-4 text-white">
         <h1 className="text-lg font-bold text-center mb-4">SOBRE MÍ:</h1>
         <p className=" text-sm md:text-lg text-left md:text-left">
           ¡Hola! Mi nombre es Walter Porta y soy un Desarrollador Web Full Stack
