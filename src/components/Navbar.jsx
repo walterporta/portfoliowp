@@ -18,8 +18,7 @@ const NavBar = () => {
         </p>
       </a>
       <div className="hidden md:flex space-x-4">
-        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">Home</p>
-        
+        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">Home</p>        
         <p className="cursor-pointer text-blue-50 hover:text-cyan-500">About</p>
         <p className="cursor-pointer text-blue-50 hover:text-cyan-500">
           Projects
@@ -31,10 +30,10 @@ const NavBar = () => {
       </div>
 
       <div className="md:hidden">
-        <button className="focus:outline-none" onClick={toggleMenu}>
+        <button className="focus:outline-none bg-gray-900" onClick={toggleMenu}>
           <FontAwesomeIcon
             icon={isOpen ? faTimes : faBars}
-            className="w-6 h-6 text-white"
+            className="w-6 h-6 bg-slate-600 text-white"            
           />
         </button>
       </div>
