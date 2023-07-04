@@ -32,12 +32,12 @@ const About = () => {
         </p>
       </div>
       <br />
-      <div className="mt-6 flex space-x-2">
+      <div className="mt-6 flex space-x-2 md: px-3">
         <a
           href="https://drive.google.com/file/d/17pGeiRA535DKCVIcvlv7xxVXKihNo_jq/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 hover:text-cyan-500 text-white py-2 rounded-lg text-sm md:text-lg mx-5"
+          className="bg-gray-800 hover:text-cyan-500 text-white py-2 px-4 rounded-lg text-sm md:text-lg mx-5"
         >
           Descargar mi CV (Inglés)
         </a>
@@ -46,7 +46,7 @@ const About = () => {
           href="https://drive.google.com/file/d/1D9Vv69mRuarWmYV3gjxYX4p8PvuvlqBD/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 hover:text-cyan-500 text-white py-2 rounded-lg text-sm md:text-lg mx-5"
+          className="bg-gray-800 hover:text-cyan-500 text-white py-2  px-4 rounded-lg text-sm md:text-lg mx-5"
         >
           Descargar mi CV (Español)
         </a>
