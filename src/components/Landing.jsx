@@ -23,7 +23,7 @@ const Landing = () => {
             rel="noopener noreferrer"
             className="bg-gray-800 hover:text-cyan-500 text-white px-4 py-2 rounded-lg"
           >
-            LinkedIn
+            Linkedin
           </a>
           <a
             href="https://github.com/walterporta"

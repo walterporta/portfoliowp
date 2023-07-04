@@ -5,16 +5,15 @@
 // const ProjectsSections = () => {
 //   return (
 //     <div className="bg-emerald-500 items-center justify-center h-screen">
-//       <h1 className="text-lg font-bold ">PROYECTOS:</h1>
+//       <h1 className="text-lg font-bold">PROYECTOS:</h1>
 //       <br />
-//       <div className="flex flex-col md:flex-row items-center  justify-center ">
-//         <div className="grid grid-cols-2 md:items-start ">
+//       <div className="flex flex-col md:flex-row items-center justify-center">
+//         <div className="md:flex-col ">
 //           <PiCountryCard />
-//           <CoderGameCard />
-          
 //         </div>
-        
-        
+//         <div className="md:flex-col">
+//           <CoderGameCard />
+//         </div>
 //       </div>
 //     </div>
 //   );
@@ -32,11 +31,15 @@ const ProjectsSections = () => {
       <h1 className="text-lg font-bold">PROYECTOS:</h1>
       <br />
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <div className="md:flex-col ">
-          <PiCountryCard />
+        <div className="md:w-1/2">
+          <div className="w-full md:max-w-sm mx-auto ">
+            <PiCountryCard />
+          </div>
         </div>
-        <div className="md:flex-col">
-          <CoderGameCard />
+        <div className="md:w-1/2">
+          <div className="w-full md:max-w-sm mx-auto">
+            <CoderGameCard />
+          </div>
         </div>
       </div>
     </div>
