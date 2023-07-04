@@ -5,7 +5,7 @@ const About = () => {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900">
       <div className="w-full md:w-2/3 md:mx-4 mt-4 text-white">
         <h1 className="text-lg font-bold text-center mb-4">SOBRE MÍ:</h1>
-        <p className=" text-sm md:text-lg text-left md:text-left mx-1">
+        <p className=" text-sm md:text-lg text-left md:text-left mx-2">
           ¡Hola! Mi nombre es Walter Porta y soy un Desarrollador Web Full Stack
           graduado del Bootcamp de Henry con más de nueve años de experiencia en
           el mundo de la tecnología. Como profesional, me destaco por mi actitud
@@ -16,7 +16,7 @@ const About = () => {
           última generación para garantizar la calidad del producto final.
         </p>
         <br />
-        <p className="text-sm md:text-lg text-left md:text-left">
+        <p className="text-sm md:text-lg text-left md:text-left mx-2">
           Tengo amplio conocimiento en el uso de lenguajes y frameworks tanto
           del lado del cliente como del servidor, lo que me permite abordar cada
           proyecto de manera innovadora y efectiva. Además, siempre estoy
@@ -37,7 +37,7 @@ const About = () => {
           href="https://drive.google.com/file/d/17pGeiRA535DKCVIcvlv7xxVXKihNo_jq/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-800 hover:text-cyan-500 text-white px-4 py-2 rounded-lg text-sm md:text-lg"
+          className="bg-gray-800 hover:text-cyan-500 text-white px-4 py-2 rounded-lg text-sm md:text-lg mx-3"
         >
           Descargar mi CV (Inglés)
         </a>
