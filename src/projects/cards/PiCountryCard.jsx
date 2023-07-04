@@ -50,7 +50,7 @@ const PiCountryCard = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="flex m-4">
+      <div className="flex ">
         <div className="w-78 h-64 overflow-hidden flex-shrink-0 relative">
           <img
             src="https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688435149/ozcpluz256lpmz6lbytl.png"
