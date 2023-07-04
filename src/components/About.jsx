@@ -5,7 +5,7 @@ const About = () => {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900">
       <div className="w-full md:w-2/3 md:mx-4 mt-4 text-white">
         <h1 className="text-lg font-bold text-center mb-4">SOBRE MÍ:</h1>
-        <p className=" text-sm md:text-lg text-left md:text-left">
+        <p className=" text-sm md:text-lg text-left md:text-left mx-1">
           ¡Hola! Mi nombre es Walter Porta y soy un Desarrollador Web Full Stack
           graduado del Bootcamp de Henry con más de nueve años de experiencia en
           el mundo de la tecnología. Como profesional, me destaco por mi actitud
@@ -25,7 +25,7 @@ const About = () => {
           de alta calidad a mis clientes.
         </p>
         <br />
-        <p className="text-sm md:text-lg text-left md:text-left">
+        <p className="text-sm md:text-lg text-left md:text-left mx-2">
           Si estás buscando un profesional apasionado, altamente capacitado y
           comprometido con el éxito de tu empresa, no dudes en contactarme.
           Estoy deseando contribuir al éxito de tu proyecto.
