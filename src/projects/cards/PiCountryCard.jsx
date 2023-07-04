@@ -5,7 +5,7 @@ const PiCountryCard = () => {
           <div className="flex m-4">
             <div className="w-78 h-64 overflow-hidden flex-shrink-0">
               <img
-                src="/src/assets/img/PiCountry-HomeCard.png"
+                src="https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688435149/ozcpluz256lpmz6lbytl.png"
                 alt="Imagen de portada"
                 className="w-full h-full object-cover"
               />

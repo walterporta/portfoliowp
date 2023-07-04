@@ -4,7 +4,7 @@ const Landing = () => {
       <div className="w-72 h-72 rounded-full overflow-hidden flex-shrink-0">
         <div>
           <img
-            src="/src/assets/img/WalterPorta.jpg"
+            src="https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688435134/vnw6gimpqsvalkkv1gza.jpg"
             alt="Imagen de portada"
             className="w-full h-full object-cover -mt-6"
           />

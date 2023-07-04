@@ -5,7 +5,7 @@ const CoderGameCard = () => {
           <div className="flex m-4">
             <div className="w-78 h-64 overflow-hidden flex-shrink-0">
               <img
-                src="/src/assets/img/otro.png"
+                src="https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688435151/s7olsv0dpjjz5bbrco1q.png"
                 alt="Imagen de portada"
                 className="w-full h-full object-cover"
               />
