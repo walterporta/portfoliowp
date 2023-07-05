@@ -3,6 +3,7 @@ import NavBar from "../components/Navbar";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import ProjectsSections from "../components/ProjectsSections";
+import Contact from "../components/Contact";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Landing id="landing"/>
             <About id="about" />
             <ProjectsSections id="projectsSections" />
+            <Contact />
         </div>
     );
 };
