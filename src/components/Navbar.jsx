@@ -204,14 +204,14 @@ const NavBar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden mt-2">
           <Link
             to="landing"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
             onClick={toggleMenu}
           >
             Home
@@ -222,7 +222,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
             onClick={toggleMenu}
           >
             About
@@ -233,7 +233,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
             onClick={toggleMenu}
           >
             Projects
@@ -244,7 +244,7 @@ const NavBar = () => {
             smooth={true}
             offset={-70}
             duration={500}
-            className="cursor-pointer"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
             onClick={toggleMenu}
           >
             Skills
@@ -255,7 +255,7 @@ const NavBar = () => {
             smooth={true}
             offset={-70}
             duration={500}
-            className="cursor-pointer"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
             onClick={toggleMenu}
           >
             Contact
