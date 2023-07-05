@@ -10,9 +10,9 @@ const Home = () => {
     return (
         <div className="w-full h-screen  p-0">
             <NavBar />
-            <Landing />
-            <About />
-            <ProjectsSections />
+            <Landing id="landing"/>
+            <About id="about" />
+            <ProjectsSections id="projectsSections" />
         </div>
     );
 };

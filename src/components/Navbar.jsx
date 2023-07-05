@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,6 +10,23 @@ const NavBar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleClick = (e, sectionId) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
+  // const handleClick = (e, sectionId) => {
+  //   e.preventDefault();
+  //   const section = document.getElementById(sectionId);
+  //   if (section) {
+  //     section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest", offset: -60 });
+  //   }
+  // };
+  
 
   return (
     <div className="flex justify-between items-center h-16 shadow-md px-10 transition-colors duration-500 bg-gray-900 text-white">
@@ -18,16 +36,62 @@ const NavBar = () => {
         </p>
       </a>
       <div className="hidden md:flex space-x-4">
-        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">Home</p>        
-        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">About</p>
-        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">
-          Projects
-        </p>
-        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">Skills</p>
-        <p className="cursor-pointer text-blue-50 hover:text-cyan-500">
-          Contact
-        </p>
-      </div>
+  <Link
+    to="landing"
+    spy={true}
+    smooth={true}
+    offset={0}
+    duration={500}
+    className="cursor-pointer text-blue-50 hover:text-cyan-500"
+  >
+    Home
+  </Link>
+
+  <Link
+    to="about"
+    spy={true}
+    smooth={true}
+    offset={0}
+    duration={500}
+    className="cursor-pointer text-blue-50 hover:text-cyan-500"
+  >
+    About
+  </Link>
+
+  <Link
+    to="projectsSections"
+    spy={true}
+    smooth={true}
+    offset={0}
+    duration={500}
+    className="cursor-pointer text-blue-50 hover:text-cyan-500"
+  >
+    Projects
+  </Link>
+
+  <Link
+    to="skills"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    className="cursor-pointer text-blue-50 hover:text-cyan-500"
+  >
+    Skills
+  </Link>
+
+  <Link
+    to="contact"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    className="cursor-pointer text-blue-50 hover:text-cyan-500"
+  >
+    Contact
+  </Link>
+</div>
+
 
       <div className="md:hidden">
         <button className="focus:outline-none bg-gray-900" onClick={toggleMenu}>
@@ -52,3 +116,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+ 
