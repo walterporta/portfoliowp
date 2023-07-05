@@ -14,7 +14,7 @@ const Home = () => {
             <Landing id="landing"/>
             <About id="about" />
             <ProjectsSections id="projectsSections" />
-            <Contact />
+            <Contact id="contact"/>
         </div>
     );
 };

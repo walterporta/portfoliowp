@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900" id="about">
       <div className="w-full md:w-2/3 md:mx-4 mt-4 text-white">
-        <h1 className="text-lg font-bold text-center mb-4">SOBRE MÍ:</h1>
+        <h1 className="text-lg font-bold text-center mb-4 ">SOBRE MÍ:</h1>
         <p className=" text-sm md:text-lg text-left md:text-left mx-2">
           ¡Hola! Mi nombre es Walter Porta y soy un Desarrollador Web Full Stack
           graduado del Bootcamp de Henry con más de nueve años de experiencia en

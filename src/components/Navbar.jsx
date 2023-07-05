@@ -186,7 +186,7 @@ const NavBar = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
