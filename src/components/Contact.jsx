@@ -14,6 +14,7 @@ const Contact = () => {
       to_email: "walterportadev@example.com", // Ingresa aquí tu dirección de correo
       subject: "Mensaje desde el formulario de contacto - Portfolio",
       message: message,
+      name: name,
     };
 
     emailjs
