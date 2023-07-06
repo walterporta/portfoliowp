@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-gray-900 h-screen" id="contact">
-      <h1 className="text-lg text-white  mt-12 mb-10 px-10 font-bold tracking-widest text-center">
+      <h1 className="text-lg text-white  mt-20 mb-10 px-10 font-bold tracking-widest text-center">
         CONTÁCTAME:
       </h1>
 

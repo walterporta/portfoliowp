@@ -15,7 +15,7 @@ const Home = () => {
             <About id="about" />
             <ProjectsSections id="projectsSections" />
             <Contact id="contact"/>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
