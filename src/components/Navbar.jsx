@@ -20,8 +20,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-16 shadow-md px-10 transition-colors duration-500 bg-gray-900 text-white">
-      <a href="/" title="Walter Porta">
+    <div className="fixed w-full top-0 z-50 flex justify-between items-center h-16 shadow-md px-10 transition-colors duration-500 bg-gray-900 text-white">
+    <a href="/" title="Walter Porta">
         <p className="text-lg font-bold text-blue-50 hover:text-cyan-500">
           Walter Porta
         </p>

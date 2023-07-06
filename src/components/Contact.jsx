@@ -32,9 +32,9 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-gray-900 h-screen" id="contact">
-      <h3 className="text-3xl text-slate-700 dark:text-white mt-12 mb-10 px-10 font-bold tracking-widest text-center">
-        Contáctame
-      </h3>
+      <h1 className="text-lg text-white  mt-12 mb-10 px-10 font-bold tracking-widest text-center">
+        CONTÁCTAME:
+      </h1>
 
       <section className="flex flex-col w-[90%] m-auto" id="contacto">
         <form onSubmit={handleSubmit} className="w-[90%] md:max-w-[600px] m-auto">
@@ -55,7 +55,7 @@ const Contact = () => {
               type="text"
               name="nombre"
               id="nombre"
-              placeholder="Nombre"
+              placeholder="Nombre y Apellido"
               className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
               value={name}
               onChange={(e) => setName(e.target.value)}
