@@ -36,7 +36,7 @@ const Contact = () => {
         CONTÁCTAME:
       </h1>
 
-      <section className="flex flex-col w-[90%] m-auto" id="contacto">
+      <div className="flex flex-col w-[90%] m-auto" id="contacto">
         <form onSubmit={handleSubmit} className="w-[90%] md:max-w-[600px] m-auto">
           <div>
             <input
@@ -79,7 +79,37 @@ const Contact = () => {
             </button>
           </div>
         </form>
-      </section>
+      </div>
+
+      <div className="flex items-center justify-center  mb-20">
+      <a href="mailto:walterandresporta@gmail.com" target="_blank" rel="noreferrer">
+                        <img
+                            className={"w-14 h-14 mx-8"}
+                            src={"https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688648247/bapzrkehr76auweeuaje.png"}
+                            alt="Contact me"
+                            title="Contact me"
+                            loading="lazy"                            
+                        />
+                    </a>
+                    <a href="https://www.linkedin.com/in/walter-porta-589a52254/" target="_blank" rel="noreferrer">
+                        <img
+                            className={"w-14 h-14 mx-8"}
+                            src={"https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688648242/b0mnhfatyhz3ckvgcsfg.png"}
+                            alt="LinkedIn"
+                            title="LinkedIn"
+                            loading="lazy"                            
+                        />
+                    </a>
+                    <a href="https://github.com/walterporta" target="_blank" rel="noreferrer">
+                        <img
+                            className={"w-14 h-14 mx-8"}
+                            src={"https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688647394/w6hjfyu5b9kcmwgfqd3e.png"}
+                            alt="GitHub"
+                            title="GitHub"
+                            loading="lazy"                            
+                        />
+                    </a>
+      </div>
     </div>
   );
 };
