@@ -87,13 +87,13 @@ const NavBar = () => {
         <button className="focus:outline-none bg-gray-900" onClick={toggleMenu}>
           <FontAwesomeIcon
             icon={isOpen ? faTimes : faBars}
-            className="w-6 h-6 bg-slate-600 text-white"
+            className="w-6 h-6 bg-gray-900 text-white"
           />
         </button>
       </div>
 
       {isOpen && (
-        <div className="md:hidden mt-2">
+        <div className="md:hidden mt-16">
           <Link
             to="landing"
             spy={true}
@@ -111,7 +111,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 my-0.3"
             onClick={toggleMenu}
           >
             About
