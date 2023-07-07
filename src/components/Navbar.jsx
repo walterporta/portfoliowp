@@ -20,7 +20,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className="fixed w-full top-0 z-50 flex justify-between items-center h-16 shadow-md px-10 transition-colors duration-500 bg-gray-900 text-white">
+    <div className={`fixed w-full top-0 z-50 flex  justify-between items-center px-10 transition-colors duration-500 bg-gray-900 text-white ${isOpen ? 'h-auto' : 'h-16'} shadow-md`}>
+    {/* <div className="fixed w-full top-0 z-50 flex justify-between items-center h-16  shadow-md px-10 transition-colors duration-500 bg-gray-900 text-white "> */}
     <a href="/" title="Walter Porta">
         <p className="text-lg font-bold text-blue-50 hover:text-cyan-500">
           Walter Porta
@@ -84,16 +85,16 @@ const NavBar = () => {
       </div>
 
       <div className="md:hidden">
-        <button className="focus:outline-none bg-gray-900" onClick={toggleMenu}>
+        <button className="focus:outline-none bg-gray-900 " onClick={toggleMenu}>
           <FontAwesomeIcon
             icon={isOpen ? faTimes : faBars}
-            className="w-6 h-6 bg-gray-900 text-white"
+            className="w-6 h-6 bg-gray-900 text-white "
           />
         </button>
       </div>
 
       {isOpen && (
-        <div className="md:hidden mt-16">
+        <div className="md:hidden my-2 text-xs ">
           <Link
             to="landing"
             spy={true}
