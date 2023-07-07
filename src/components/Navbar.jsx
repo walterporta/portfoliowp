@@ -100,7 +100,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
             Home
@@ -111,7 +111,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
             About
@@ -122,7 +122,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
             Projects
@@ -133,7 +133,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
             Skills
@@ -144,7 +144,7 @@ const NavBar = () => {
             smooth={true}
             offset={0}
             duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-2"
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
             Contact
