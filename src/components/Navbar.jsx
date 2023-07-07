@@ -103,7 +103,7 @@ const NavBar = () => {
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
-            Home
+            Inicio
           </Link>
           <Link
             to="about"
@@ -114,7 +114,7 @@ const NavBar = () => {
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 my-0.3"
             onClick={toggleMenu}
           >
-            About
+            Sobre Mí
           </Link>
           <Link
             to="projectsSections"
@@ -125,7 +125,7 @@ const NavBar = () => {
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
-            Projects
+            Proyectos
           </Link>
           <Link
             to="skills"
@@ -136,7 +136,7 @@ const NavBar = () => {
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
-            Skills
+            Habilidades
           </Link>
           <Link
             to="contact"
@@ -147,7 +147,7 @@ const NavBar = () => {
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
           >
-            Contact
+            Contacto
           </Link>
         </div>
       )}
