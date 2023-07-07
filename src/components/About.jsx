@@ -9,8 +9,7 @@ const About = () => {
           ¡Hola! Mi nombre es Walter Porta y soy un Desarrollador Web Full Stack
           graduado del Bootcamp de Henry con más de nueve años de experiencia en
           el mundo de la tecnología. Como profesional, me destaco por mi actitud
-          proactiva, resolutiva y capacidad para trabajar en equipo, lo que me
-          ha permitido llevar a cabo proyectos exitosos en conjunto. Mi enfoque
+          proactiva, resolutiva y capacidad para trabajar en equipo. Mi enfoque
           principal es comprender las necesidades de los clientes y brindar
           soluciones personalizadas, utilizando herramientas y tecnologías de
           última generación para garantizar la calidad del producto final.
@@ -22,7 +21,7 @@ const About = () => {
           proyecto de manera innovadora y efectiva. Además, siempre estoy
           dispuesto a aprender nuevas tecnologías y mejorar mis habilidades para
           poder seguir creciendo en mi carrera profesional y ofrecer soluciones
-          de alta calidad a mis clientes.
+          de alta calidad.
         </p>
         <br />
         <p className="text-sm md:text-lg text-left md:text-left mx-2">

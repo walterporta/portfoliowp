@@ -40,7 +40,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} className="w-[90%] md:max-w-[600px] m-auto">
           <div>
             <input
-              placeholder="info@ejemplo.com"
+              placeholder="ejemplo@gmail.com"
               type="email"
               name="email"
               id="email"
