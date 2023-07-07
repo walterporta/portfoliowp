@@ -35,7 +35,7 @@ const NavBar = () => {
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
-          Home
+          Inicio
         </Link>
 
         <Link
@@ -46,7 +46,7 @@ const NavBar = () => {
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
-          About
+          Sobre Mí
         </Link>
 
         <Link
@@ -57,7 +57,7 @@ const NavBar = () => {
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
-          Projects
+          Proyectos
         </Link>
 
         <Link
@@ -68,7 +68,7 @@ const NavBar = () => {
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
-          Skills
+          Habilidades
         </Link>
 
         <Link
@@ -79,7 +79,7 @@ const NavBar = () => {
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
-          Contact
+          Contacto
         </Link>
       </div>
 
