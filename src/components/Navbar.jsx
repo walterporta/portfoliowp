@@ -28,6 +28,7 @@ const NavBar = () => {
       </a>
       <div className="hidden md:flex space-x-4">
         <Link
+          activeClass="text-cyan-500"
           to="landing"
           spy={true}
           smooth={true}
@@ -39,6 +40,7 @@ const NavBar = () => {
         </Link>
 
         <Link
+          activeClass="text-cyan-500"
           to="about"
           spy={true}
           smooth={true}
@@ -50,6 +52,7 @@ const NavBar = () => {
         </Link>
 
         <Link
+          activeClass="text-cyan-500"
           to="projectsSections"
           spy={true}
           smooth={true}
@@ -61,6 +64,7 @@ const NavBar = () => {
         </Link>
 
         <Link
+          activeClass="text-cyan-500"
           to="skills"
           spy={true}
           smooth={true}
@@ -72,6 +76,7 @@ const NavBar = () => {
         </Link>
 
         <Link
+          activeClass="text-cyan-500"
           to="contact"
           spy={true}
           smooth={true}
@@ -84,18 +89,18 @@ const NavBar = () => {
       </div>
 
       <div className="md:hidden">
-      <button className={`focus:outline-none bg-gray-900 ${isOpen ? 'ms-20' : ''}`} onClick={toggleMenu}>
-  <FontAwesomeIcon
-    icon={isOpen ? faTimes : faBars}
-    className={`bg-gray-900 text-white ${isOpen ? 'w-2 h-4' : 'w-6 h-6'}`}
-  />
-</button>
-
+        <button className={`focus:outline-none bg-gray-900 ${isOpen ? 'ms-20' : ''}`} onClick={toggleMenu}>
+          <FontAwesomeIcon
+            icon={isOpen ? faTimes : faBars}
+            className={`bg-gray-900 text-white ${isOpen ? 'w-2 h-4' : 'w-6 h-6'}`}
+          />
+        </button>
       </div>
 
       {isOpen && (
         <div className="md:hidden my-2 text-xs ">
           <Link
+            activeClass="text-cyan-500"
             to="landing"
             spy={true}
             smooth={true}
@@ -107,6 +112,7 @@ const NavBar = () => {
             Inicio
           </Link>
           <Link
+            activeClass="text-cyan-500"
             to="about"
             spy={true}
             smooth={true}
@@ -118,6 +124,7 @@ const NavBar = () => {
             Sobre Mí
           </Link>
           <Link
+            activeClass="text-cyan-500"
             to="projectsSections"
             spy={true}
             smooth={true}
@@ -129,6 +136,7 @@ const NavBar = () => {
             Proyectos
           </Link>
           <Link
+            activeClass="text-cyan-500"
             to="skills"
             spy={true}
             smooth={true}
@@ -140,6 +148,7 @@ const NavBar = () => {
             Habilidades
           </Link>
           <Link
+            activeClass="text-cyan-500"
             to="contact"
             spy={true}
             smooth={true}
