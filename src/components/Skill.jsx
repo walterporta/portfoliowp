@@ -26,7 +26,9 @@ const Skill = () => {
     return(
         <div className=' bg-emerald-500 h-screen items-center
          justify-center' id="skills">
+            <br />
             <h1 className="text-lg font-bold text-white " >HABILIDADES:</h1>
+            <br />
             <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-1 items-center justify-center">
         
             {skills.map((skill, index) => (
