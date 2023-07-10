@@ -5,6 +5,7 @@ import About from "../components/About";
 import ProjectsSections from "../components/ProjectsSections";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Skill from "../components/Skill";
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
             <NavBar />
             <Landing id="landing"/>
             <About id="about" />
+            <Skill id="skills"/>
             <ProjectsSections id="projectsSections" />
             <Contact id="contact"/>
             {/* <Footer /> */}

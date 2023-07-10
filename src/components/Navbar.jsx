@@ -32,7 +32,7 @@ const NavBar = () => {
           to="landing"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-64}
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
@@ -44,7 +44,7 @@ const NavBar = () => {
           to="about"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-64}
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
@@ -53,22 +53,10 @@ const NavBar = () => {
 
         <Link
           activeClass="text-cyan-500"
-          to="projectsSections"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          className="cursor-pointer text-blue-50 hover:text-cyan-500"
-        >
-          Proyectos
-        </Link>
-
-        <Link
-          activeClass="text-cyan-500"
           to="skills"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-64}
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >
@@ -77,10 +65,22 @@ const NavBar = () => {
 
         <Link
           activeClass="text-cyan-500"
+          to="projectsSections"
+          spy={true}
+          smooth={true}
+          offset={-64}
+          duration={500}
+          className="cursor-pointer text-blue-50 hover:text-cyan-500"
+        >
+          Proyectos
+        </Link>
+
+        <Link
+          activeClass="text-cyan-500"
           to="contact"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-64}
           duration={500}
           className="cursor-pointer text-blue-50 hover:text-cyan-500"
         >

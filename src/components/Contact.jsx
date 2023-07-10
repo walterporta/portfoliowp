@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900 h-screen" id="contact">
+    <div className="flex flex-col items-center justify-center bg-emerald-500 h-screen" id="contact">
       <h1 className="text-lg text-white  mt-20 mb-10 px-10 font-bold tracking-widest text-center">
         CONTÁCTAME:
       </h1>
@@ -74,7 +74,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="my-3">
-            <button className="bg-gray-800 text-white p-3 w-full rounded-lg  tracking-widest" type="submit">
+            <button className="bg-emerald-700 text-white p-3 w-full rounded-lg  tracking-widest" type="submit">
               Enviar Mensaje
             </button>
           </div>
