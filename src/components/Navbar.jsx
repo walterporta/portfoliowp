@@ -104,7 +104,7 @@ const NavBar = () => {
             to="landing"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-64}
             duration={500}
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
@@ -116,7 +116,7 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-64}
             duration={500}
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 my-0.3"
             onClick={toggleMenu}
@@ -128,7 +128,7 @@ const NavBar = () => {
             to="projectsSections"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-64}
             duration={500}
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
@@ -140,7 +140,7 @@ const NavBar = () => {
             to="skills"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-64}
             duration={500}
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
@@ -152,7 +152,7 @@ const NavBar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-64}
             duration={500}
             className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
             onClick={toggleMenu}
