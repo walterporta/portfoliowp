@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <div className="bg-gradient-to-r from-emerald-400 to-blue-400 flex flex-col items-center justify-center  h-screen" id="contact">
-      <h1 className="text-lg text-white  mt-20 mb-10 px-10 font-bold tracking-widest text-center">
+      <h1 className="text-3xl text-neutral-800font-bold  mt-20 mb-10 px-10 font-bold tracking-widest text-center">
         CONTÁCTAME:
       </h1>
 
