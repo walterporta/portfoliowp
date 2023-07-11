@@ -1,6 +1,6 @@
 const Landing = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center h-screen bg-emerald-500" id="landing">
+    <div className=" bg-gradient-to-r from-emerald-400 to-blue-400 flex flex-col md:flex-row items-center justify-center h-screen " id="landing">
       <div className="w-72 h-72 rounded-full overflow-hidden flex-shrink-0">
         <div>
           <img

@@ -9,7 +9,7 @@ const skills = [
   { name: 'Redux', icon: 'https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688956385/redux_dfk8sf.svg' },
   { name: 'Node.js', icon: 'https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688956385/node_ogx7ou.svg' },
   { name: 'TypeScript', icon: 'https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688956383/ts_r1cjmy.svg' },
-  { name: 'Boostrap', icon: 'https://res.cloudinary.com/dnkaxvkr9/image/upload/v1688962802/n4xzbehcwqcdoinb1av4.png' },
+  { name: 'Boostrap', icon: '' },
   { name: 'PostgresSQL', icon: '' },
   { name: 'Sequelize', icon: '' },
   { name: 'Auth0', icon: '' },
@@ -24,7 +24,7 @@ const skills = [
 
 const Skill = () => {
     return(
-        <div className=' bg-emerald-500 h-screen items-center
+        <div className=' bg-gradient-to-r from-emerald-500  to-blue-300 h-screen items-center
          justify-center' id="skills">
             <br />
             <h1 className="text-lg font-bold text-white " >HABILIDADES:</h1>
