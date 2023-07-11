@@ -11,7 +11,7 @@ const Contact = () => {
 
     const templateParams = {
       from_email: email,
-      to_email: "walterportadev@example.com", // Ingresa aquí tu dirección de correo
+      to_email: "walterportadev@example.com", 
       subject: "Mensaje desde el formulario de contacto - Portfolio",
       message: message,
       name: name,
