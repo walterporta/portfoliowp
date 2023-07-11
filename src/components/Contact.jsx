@@ -74,7 +74,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="my-3">
-            <button className="bg-gray-800 hover:text-cyan-500 text-white p-3 w-full rounded-lg  tracking-widest" type="submit">
+            <button className="bg-neutral-800 hover:text-cyan-500 text-white p-3 w-full rounded-lg  tracking-widest" type="submit">
               Enviar Mensaje
             </button>
           </div>
