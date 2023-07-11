@@ -6,7 +6,7 @@ const ProjectsSections = () => {
   return (
     <div className="bg-neutral-800 items-center justify-center h-screen " id="projectsSections">
       <div className="w-full pt-8">
-      <h1 className="text-lg font-bold text-white">PROYECTOS:</h1>
+      <h1 className="text-3xl font-bold text-white">PROYECTOS:</h1>
       </div>
       <br />
       <div className="flex flex-col md:flex-row items-center justify-center">
