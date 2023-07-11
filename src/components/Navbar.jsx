@@ -89,7 +89,7 @@ const NavBar = () => {
       </div>
 
       <div className="md:hidden">
-        <button className={`focus:outline-none bg-gray-900 ${isOpen ? 'ms-20' : ''}`} onClick={toggleMenu}>
+        <button className={`focus:outline-none bg-neutral-800 ${isOpen ? 'ms-20' : ''}`} onClick={toggleMenu}>
           <FontAwesomeIcon
             icon={isOpen ? faTimes : faBars}
             className={`bg-gray-900 text-white ${isOpen ? 'w-2 h-4' : 'w-6 h-6'}`}
