@@ -101,7 +101,7 @@ const Landing = () => {
       </div>
       <div className="md:ml-8 mt-4 md:mt-0 flex flex-col items-center md:items-start">
         <div className="text-center md:text-left text-white">
-          <p className="text-lg">Bienvenido a mi Portfolio</p>
+          <p className="text-lg ">Bienvenido a mi Portfolio</p>
           <p className="text-lg">
             Me llamo <span className="font-bold text-2xl">Walter Porta</span>
           </p>
