@@ -17,21 +17,18 @@ const PortfolioCard = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="flex ">
-        <div className="w-78 h-64 overflow-hidden flex-shrink-0 relative">
+      <div className="flex items-center justify-center">
+        <div className="w-3/4 h-3/4 md:w-full md:h-full overflow-hidden flex-shrink-0 relative">
           <img
-            src="https://res.cloudinary.com/dnkaxvkr9/image/upload/v1689179252/vhz6f0uvzzclhnvden0p.png"
+            src="https://res.cloudinary.com/dnkaxvkr9/image/upload/v1689179963/in7t3jare7m7jkeycnjh.png"
             alt="Imagen de portada"
             className={`w-full h-full object-cover transition-all ${
               isHovered ? "brightness-50" : "brightness-100"
-            }`}
+            } max-w-full`}
           />
           {isHovered && (
             <div className="text-left absolute top-0 left-0 h-full w-full p-4 text-white">
-              <h1 className="text-lg font-bold">Portfolio</h1>
-              <br />
-              <p>Portfolio Personal</p>
-              {/* <p>Curso: Full Stack Developer en Henry</p> */}
+              <h1 className="text-lg font-bold">Portfolio Personal</h1>
               <br />
               <div className="flex flex-row">
                 <p className="font-bold mr-2">Fecha de realización:</p>
@@ -48,3 +45,4 @@ const PortfolioCard = () => {
 }
 
 export default PortfolioCard;
+

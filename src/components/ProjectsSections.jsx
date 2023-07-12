@@ -1,6 +1,7 @@
 import React from "react";
 import PiCountryCard from "../projects/cards/PiCountryCard";
 import CoderGameCard from "../projects/cards/CoderGameCard";
+import PortfolioCard from "../projects/cards/PortfolioCard";
 
 const ProjectsSections = () => {
   return (
@@ -16,7 +17,12 @@ const ProjectsSections = () => {
           </div>
         </div>
         <div className="md:w-1/2">
-          <div className="w-full md:max-w-sm mx-auto">
+          <div className="w-full md:max-w-sm mx-auto mb-4">
+            <PortfolioCard />
+          </div>
+        </div>
+        <div className="md:w-1/2">
+          <div className="w-full md:max-w-sm mx-auto mb-4">
             <CoderGameCard />
           </div>
         </div>
