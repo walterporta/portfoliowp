@@ -6,7 +6,7 @@ import PortfolioCard from "../projects/cards/PortfolioCard";
 const ProjectsSections = () => {
   return (
     <div className="bg-neutral-800 items-center justify-center h-screen " id="projectsSections">
-      <div className="w-full pt-8">
+      <div className="w-full py-2">
       <h1 className="text-3xl font-bold text-white">PROYECTOS:</h1>
       </div>
       <br />
