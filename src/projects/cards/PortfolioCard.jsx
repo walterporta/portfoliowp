@@ -13,7 +13,7 @@ const PortfolioCard = () => {
   
     return(
         <div
-      className="flex flex-col md:flex-row items-center justify-center border border-transparent hover:border-gray-800 hover:bg-white hover:text-black hover:bg-opacity-50 hover:text-opacity-50 rounded-md"
+      className="flex flex-col md:flex-row items-center justify-center border border-transparent rounded-md"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
