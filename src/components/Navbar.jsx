@@ -123,18 +123,7 @@ const NavBar = () => {
           >
             Sobre Mí
           </Link>
-          <Link
-            activeClass="text-cyan-500"
-            to="projectsSections"
-            spy={true}
-            smooth={true}
-            offset={-64}
-            duration={500}
-            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
-            onClick={toggleMenu}
-          >
-            Proyectos
-          </Link>
+
           <Link
             activeClass="text-cyan-500"
             to="skills"
@@ -146,6 +135,19 @@ const NavBar = () => {
             onClick={toggleMenu}
           >
             Habilidades
+          </Link>
+          
+          <Link
+            activeClass="text-cyan-500"
+            to="projectsSections"
+            spy={true}
+            smooth={true}
+            offset={-64}
+            duration={500}
+            className="cursor-pointer block text-blue-50 hover:text-cyan-500 mb-0.3"
+            onClick={toggleMenu}
+          >
+            Proyectos
           </Link>
           <Link
             activeClass="text-cyan-500"
