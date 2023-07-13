@@ -27,18 +27,28 @@ const PiCountryCard = () => {
             }`}
           />
           {isHovered && (
-            <div className="text-left absolute top-0 left-0 h-full w-full p-4 text-white">
-              <h1 className="text-lg font-bold">PI Country</h1>
-              <br />
-              <p>Proyecto individual</p>
-              <p>Curso: Full Stack Developer en Henry</p>
-              <br />
-              <div className="flex flex-row">
-                <p className="font-bold mr-2">Fecha de realización:</p>
-                <p>Mar 2023</p>
+            <div className="flex flex-col justify-between h-full absolute top-0 left-0 w-full p-2 sm:p-4 text-white">
+              <div className="text-left">
+                <h1 className="text-lg font-bold">PI Country</h1>
+                <br />
+                <p>Proyecto individual</p>
+                <p>Curso: Full Stack Developer en Henry</p>
+                <br />
+                <div className="flex flex-row">
+                  <p className="font-bold mr-2">Fecha de realización:</p>
+                  <p>Mar 2023</p>
+                </div>
               </div>
-              <br />
-              <p className="font-bold">Tecnologías utilizadas:</p>
+              <div className="flex justify-center mt-4">
+                <a
+                  href="https://github.com/walterporta/PI-Countries"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-4 text-white bg-neutral-800 hover:text-cyan-500 border rounded-lg px-2 py-1"
+                >
+                  Repositorio
+                </a>
+              </div>
             </div>
           )}
         </div>
