@@ -11,9 +11,13 @@ const CoderGameCard = () => {
     setIsHovered(false);
   };
 
-  const handleRepoClick = (event) => {
+  const handleBackendRepoClick = (event) => {
     event.preventDefault();
     window.open("https://github.com/walterporta/CoderGame_Back", "_blank");
+  };
+
+  const handleFrontendRepoClick = (event) => {
+    event.preventDefault();
     window.open("https://github.com/Rancho91/CoderGame_Front", "_blank");
   };
 
@@ -48,10 +52,17 @@ const CoderGameCard = () => {
               <div className="flex justify-center mt-4">
                 <a
                   href="/"
-                  onClick={handleRepoClick}
+                  onClick={handleBackendRepoClick}
                   className="mr-4 text-white bg-neutral-800 hover:text-cyan-500 border rounded-lg px-2 py-1"
                 >
-                  Repositorios
+                  Repo BE
+                </a>
+                <a
+                  href="/"
+                  onClick={handleFrontendRepoClick}
+                  className="mr-4 text-white bg-neutral-800 hover:text-cyan-500 border rounded-lg px-2 py-1"
+                >
+                  Repo FE
                 </a>
                 <a
                   href="https://coder-game-front.vercel.app/"
