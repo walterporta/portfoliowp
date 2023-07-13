@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
+const {
+  VITE_APP_EMAIL: EMAIL, 
+  VITE_APP_SERVICE: SERVICE, 
+  VITE_APP_TEMPLATE: TEMPLATE, 
+  VITE_APP_EMAILTEMPLATE: EMAILTEMPLATE
+} = import.meta.env;
+
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -11,14 +18,14 @@ const Contact = () => {
 
     const templateParams = {
       from_email: email,
-      to_email: "walterportadev@example.com", 
+      to_email: EMAIL, 
       subject: "Mensaje desde el formulario de contacto - Portfolio",
       message: message,
       name: name,
     };
 
     emailjs
-      .send("service_0ztm46j", "template_8xcrzxo", templateParams, "50WlnwzGqTRgEtYdI")
+      .send(SERVICE, TEMPLATE, templateParams, EMAILTEMPLATE)
       .then((response) => {
         console.log("Correo enviado:", response);
         setEmail("");
